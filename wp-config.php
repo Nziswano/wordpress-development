@@ -61,10 +61,7 @@ define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('NONCE_SALT'));
 define('MY_KEY',      	   getenv('MY_KEY'));
-/* Captcha Settings  */
-// define('CAPTCHA_SITE_KEY',  '');
-// define('CAPTCHA_SECRET',    '');
-// define('CAPTCHA_URL',       'https://www.google.com/recaptcha/api/siteverify');
+
 /**#@-*/
 /**
  * WordPress Database Table prefix.
@@ -94,20 +91,7 @@ define('WP_DEBUG_LOG', getenv('WP_DEBUG_CONFIG_LOG'));
 define('SCRIPT_DEBUG', getenv('WP_DEBUG_CONFIG_SCRIPT'));
 define('SAVEQUERIES', getenv('WP_DEBUG_CONFIG_SAVEQUERIES'));
 
-// S3
-// define( 'S3_UPLOADS_BUCKET', '');
-// define( 'S3_UPLOADS_KEY', '');
-// define( 'S3_UPLOADS_SECRET', '');
-// define( 'S3_UPLOADS_REGION', 'eu-central-1');
-
-// define( 'WP_ALLOW_MULTISITE', getenv('WP_ALLOW_MULTISITE') );
-// define( 'MULTISITE', getenv('WP_MULTISITE') );
-// define( 'SUBDOMAIN_INSTALL', false );
 $base = '/';
-// define( 'DOMAIN_CURRENT_SITE', getenv('DOMAIN_CURRENT_SITE') );
-// define( 'PATH_CURRENT_SITE', '/' );
-// define( 'SITE_ID_CURRENT_SITE', 1 );
-// define( 'BLOG_ID_CURRENT_SITE', 1 );
 
 /* That's all, stop editing! Happy blogging. */
 
