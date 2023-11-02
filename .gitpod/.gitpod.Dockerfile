@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-RUN sudo install-packages mariadb-client
+RUN sudo install-packages mariadb-client php-xdebug
 
 # Install php-mysql driver
 # RUN docker-php-ext-install mysqli pdo pdo_mysql
