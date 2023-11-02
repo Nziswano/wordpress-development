@@ -100,14 +100,14 @@ define('SAVEQUERIES', getenv('WP_DEBUG_CONFIG_SAVEQUERIES'));
 // define( 'S3_UPLOADS_SECRET', '');
 // define( 'S3_UPLOADS_REGION', 'eu-central-1');
 
-define( 'WP_ALLOW_MULTISITE', getenv('WP_ALLOW_MULTISITE') );
-define( 'MULTISITE', getenv('WP_MULTISITE') );
-define( 'SUBDOMAIN_INSTALL', false );
+// define( 'WP_ALLOW_MULTISITE', getenv('WP_ALLOW_MULTISITE') );
+// define( 'MULTISITE', getenv('WP_MULTISITE') );
+// define( 'SUBDOMAIN_INSTALL', false );
 $base = '/';
-define( 'DOMAIN_CURRENT_SITE', getenv('DOMAIN_CURRENT_SITE') );
-define( 'PATH_CURRENT_SITE', '/' );
-define( 'SITE_ID_CURRENT_SITE', 1 );
-define( 'BLOG_ID_CURRENT_SITE', 1 );
+// define( 'DOMAIN_CURRENT_SITE', getenv('DOMAIN_CURRENT_SITE') );
+// define( 'PATH_CURRENT_SITE', '/' );
+// define( 'SITE_ID_CURRENT_SITE', 1 );
+// define( 'BLOG_ID_CURRENT_SITE', 1 );
 
 /* That's all, stop editing! Happy blogging. */
 

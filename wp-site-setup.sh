@@ -2,8 +2,6 @@
 set -Eeuo pipefail
 cp example.env .env
 set -a; source .env; set +a
-export WP_ALLOW_MULTISITE=false
-export WP_MULTISITE=""
 composer update
 composer install
 wp --info --allow-root
