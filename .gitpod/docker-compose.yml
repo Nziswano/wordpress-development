@@ -9,7 +9,11 @@ services:
       MARIADB_USER: ${MYSQL_USER}
       MARIADB_PASSWORD: ${MYSQL_PASSWORD}
       MARIADB_DATABASE: ${MYSQL_DATABASE}
+    ports:
+      - 3306:3306
   adminer:
     image: adminer
     ports:
       - 8080:8080
+volumes:
+  mariadb-data: null
