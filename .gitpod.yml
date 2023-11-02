@@ -6,9 +6,11 @@ image:
 tasks:
   - name: Script Task
     init: |
-      docker-compose pull
+      cp example.env .env
+      set -a; source .env; set +a
+      docker-compose -f .gipod/docker-compose.yml pull
     command: |
-      docker-compose up -d
+      docker-compose -f .gipod/docker-compose.yml up -d
 # List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
 ports:
   - name: Frontend
