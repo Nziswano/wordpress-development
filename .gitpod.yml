@@ -6,6 +6,10 @@ image:
 tasks:
   - name: Script Task
     init: |
+      curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+      chmod +x wp-cli.phar
+      sudo mv wp-cli.phar /usr/local/bin/wp
+      wp --info
       cp example.env .env
       set -a; source .env; set +a
       docker-compose -f .gitpod/docker-compose.yml pull
