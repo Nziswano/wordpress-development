@@ -1,0 +1,67 @@
+{
+  "name": "nziswano/wordpress-docker",
+  "description": "Dockerized Wordpress using Composer",
+  "keywords": [
+    "wordpress",
+    "blog",
+    "cms"
+  ],
+  "type": "project",
+  "homepage": "https://www.nziswano.co.za",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "WordPress Community",
+      "homepage": "http://wordpress.org/about/"
+    },
+    {
+      "name": "Johan Martin",
+      "homepage": "https://www.nziswano.co.za",
+      "email": "martin.johan@nziswano.co.za",
+      "role": "developer"
+    }
+  ],
+  "support": {
+    "email": "info@nziswano.co.za"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "*",
+    "johnpbloch/wordpress-core": ">=6.0",
+		"johnpbloch/wordpress-core-installer": "^2.0"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "phpunit/phpunit": "*@stable"
+  },
+  "config": {
+    "vendor-dir": "vendor",
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "johnpbloch/wordpress-core-installer": true,
+      "composer/installers": true
+    }
+  },
+  "extra": {
+    "wordpress-install-dir": "wordpress",
+    "installer-paths": {
+      "wordpress/wp-content/plugins/{$name}": [
+        "type:wordpress-plugin"
+      ],
+      "wordpress/wp-content/mu-plugins/{$name}": [
+        "type:wordpress-muplugin"
+      ],
+      "wordpress/wp-content/themes/{$name}": [
+        "type:wordpress-theme"
+      ]
+    }
+  }
+}
