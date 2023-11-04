@@ -1,5 +1,5 @@
 # Basic WordPress development setup.
-** To be used with a **.devcontainer**
+* Can be used with a **.devcontainer**
 * Contains the basics needed to setup a WordPress site using composer
 
 ## How To
