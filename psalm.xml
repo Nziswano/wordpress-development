@@ -10,7 +10,7 @@
 >
     <projectFiles>
         <file name="wp-config.php" />
-        <directory name="wordpress" />
+        <directory name="wordpress/wp-content/plugins/docfox-plugin" />
         <ignoreFiles>
             <directory name="vendor" />
         </ignoreFiles>
