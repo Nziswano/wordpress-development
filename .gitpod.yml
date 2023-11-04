@@ -36,6 +36,9 @@ vscode:
     - mtxr.sqltools
     - mtxr.sqltools-driver-mysql
     - xdebug.php-debug
+    - closemarketing.wp-development-toolbox
+    - claudiosanches.woocommerce
+    - junstyle.php-cs-fixer
 additionalRepositories:
   - url: https://github.com/johanmartindev/docfox-hubspot-plugin.git
     checkoutLocation: docfox-plugin
