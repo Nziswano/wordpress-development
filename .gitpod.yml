@@ -10,6 +10,7 @@ tasks:
       wp --info
       cp example.env .env
       set -a; source .env; set +a
+      eval $(gp env -e)
       docker-compose -f .gitpod/docker-compose.yml pull
     command: |
       docker-compose -f .gitpod/docker-compose.yml up -d
@@ -37,3 +38,7 @@ vscode:
     - mtxr.sqltools
     - mtxr.sqltools-driver-mysql
     - xdebug.php-debug
+additionalRepositories:
+  - url: https://github.com/johanmartindev/wordpress-development.git
+    checkoutLocation: docfox-plugin
+mainConfiguration: https://github.com/johanmartindev/wordpress-development.git
