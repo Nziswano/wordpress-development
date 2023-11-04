@@ -36,10 +36,10 @@ vscode:
     - mtxr.sqltools-driver-mysql
     - xdebug.php-debug
 additionalRepositories:
-  - url: https://github.com/johanmartindev/wordpress-development.git
+  - url: https://github.com/johanmartindev/docfox-hubspot-plugin.git
     checkoutLocation: docfox-plugin
 mainConfiguration: https://github.com/johanmartindev/wordpress-development.git
 github:
   prebuilds:
     addBadge: true
-    addLabel: true
+    addComment: true
