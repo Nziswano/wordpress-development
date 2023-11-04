@@ -12,5 +12,4 @@ wp core install --url=${DOMAIN_CURRENT_SITE} --title="${SITE_TITLE}" --admin_use
 wp core update-db
 
 # Setup plugin
-ln -s /workspace/docfox-plugin /workspace/wordpress-development/wordpress/wp-con
-tent/plugins
+ln -s /workspace/docfox-plugin /workspace/wordpress-development/wordpress/wp-content/plugins
