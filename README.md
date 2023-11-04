@@ -20,6 +20,10 @@
 ## Database connect issues
 * socket: '/var/run/mysqld/mysqld.sock' - This is the default socket for mysql
 
+## Troubleshooting
+* Issue with connecting to the database.
+  * Added the socket to the wp-config.php file
+  * in **example.env** - `WORDPRESS_DB_HOST=127.0.0.1:/var/run/mysqld/mysqld.sock`
 ## Resources
 * wp-config.php
   * https://developer.wordpress.org/apis/wp-config-php/#configure-database-settings
