@@ -91,7 +91,7 @@ define('WP_DEBUG_LOG', getenv('WP_DEBUG_CONFIG_LOG'));
 define('SCRIPT_DEBUG', getenv('WP_DEBUG_CONFIG_SCRIPT'));
 define('SAVEQUERIES', getenv('WP_DEBUG_CONFIG_SAVEQUERIES'));
 
-$base = '/';
+// $base = '/';
 
 /* That's all, stop editing! Happy blogging. */
 

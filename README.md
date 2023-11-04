@@ -16,3 +16,10 @@
 1. Run `wp-site-setup.sh`
 1. Launch the site
   1. `wp server --port=8000 --debug --color --host=127.0.0.1`
+
+## Database connect issues
+* socket: '/var/run/mysqld/mysqld.sock' - This is the default socket for mysql
+
+## Resources
+* wp-config.php
+  * https://developer.wordpress.org/apis/wp-config-php/#configure-database-settings
