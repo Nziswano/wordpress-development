@@ -6,7 +6,7 @@ image:
 tasks:
   - name: Script Task
     init: |
-      echo "alias wp-site='wp server --port=8000 --debug --color --host=127.0.0.1'" >> ~/.bashrc
+      echo "alias wp-site='wp server --port=8000 --debug --color --host=127.0.0.1'" >> ~/.zshrc
       docker-compose -f .gitpod/docker-compose.yml pull
     command: |
       docker-compose -f .gitpod/docker-compose.yml up -d
