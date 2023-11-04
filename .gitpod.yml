@@ -39,3 +39,7 @@ additionalRepositories:
   - url: https://github.com/johanmartindev/wordpress-development.git
     checkoutLocation: docfox-plugin
 mainConfiguration: https://github.com/johanmartindev/wordpress-development.git
+github:
+  prebuilds:
+    addBadge: true
+    addLabel: true
