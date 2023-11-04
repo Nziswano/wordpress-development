@@ -14,4 +14,3 @@ wp core update-db
 # Setup plugin
 ln -s /workspace/docfox-plugin /workspace/wordpress-development/wordpress/wp-con
 tent/plugins
-

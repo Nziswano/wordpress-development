@@ -16,6 +16,8 @@
 1. Run `wp-site-setup.sh`
 1. Launch the site
   1. `wp server --port=8000 --debug --color --host=127.0.0.1`
+1. Create an alias
+  1. `alias wp-site='wp server --port=8000 --debug --color --host=127.0.0.1'`
 
 ## Database connect issues
 * socket: '/var/run/mysqld/mysqld.sock' - This is the default socket for mysql
