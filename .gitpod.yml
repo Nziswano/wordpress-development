@@ -15,13 +15,17 @@ tasks:
       docker-compose -f .gitpod/docker-compose.yml up -d
 # List the ports to expose. Learn more: https://www.gitpod.io/docs/configure/workspaces/ports
 ports:
-  - name: Frontend
-    description: Port 3000 for the frontend
-    port: 3000
-    onOpen: open-preview
+  - name: WordPress
+    description: Port 8000 for WordPress
+    port: 8000
+    onOpen: ignore
   - name: Adminer
     description: Port 8080 for the adminer
     port: 8080
+    onOpen: ignore
+  - name: MySQL
+    description: Port 8080 for the adminer
+    port: 3306
     onOpen: ignore
 vscode:
   extensions:
