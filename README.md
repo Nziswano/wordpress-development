@@ -27,3 +27,8 @@
 ## Resources
 * wp-config.php
   * https://developer.wordpress.org/apis/wp-config-php/#configure-database-settings
+
+## Gitpod Configuration
+* Added custom `.gitpod.yml` file
+* Added `gitpod.Dockerfile` file in `.gitpod` folder
+* Created a workspace with
