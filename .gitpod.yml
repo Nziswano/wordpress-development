@@ -6,6 +6,7 @@ image:
 tasks:
   - name: Script Task
     init: |
+      git config --global --add safe.directory /workspace/wordpress-development
       wp --info
       cp example.env .env
       set -a; source .env; set +a
