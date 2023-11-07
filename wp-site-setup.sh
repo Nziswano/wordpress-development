@@ -12,5 +12,6 @@ wp core install --url=${DOMAIN_CURRENT_SITE} --title="${SITE_TITLE}" --admin_use
 wp core update-db
 
 # Setup plugin
-source ~/.zshrc
+echo "alias wp-site='wp server --port=8000 --debug --color --host=127.0.0.1'" >> ~/.zshrc
 ln -s /workspace/docfox-plugin /workspace/wordpress-development/wordpress/wp-content/plugins
+source ~/.zshrc
