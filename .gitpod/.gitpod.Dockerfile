@@ -1,6 +1,5 @@
 FROM gitpod/workspace-full
 
-
 USER gitpod
 
 RUN sudo install-packages mariadb-client php-xdebug

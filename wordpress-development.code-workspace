@@ -22,6 +22,26 @@
 				"database": "wordpress",
 				"username": "wordpress"
 			}
-		]
+		],
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#aa7042",
+			"activityBar.background": "#aa7042",
+			"activityBar.foreground": "#e7e7e7",
+			"activityBar.inactiveForeground": "#e7e7e799",
+			"activityBarBadge.background": "#75ca9b",
+			"activityBarBadge.foreground": "#15202b",
+			"commandCenter.border": "#e7e7e799",
+			"sash.hoverBorder": "#aa7042",
+			"statusBar.background": "#855834",
+			"statusBar.foreground": "#e7e7e7",
+			"statusBarItem.hoverBackground": "#aa7042",
+			"statusBarItem.remoteBackground": "#855834",
+			"statusBarItem.remoteForeground": "#e7e7e7",
+			"titleBar.activeBackground": "#855834",
+			"titleBar.activeForeground": "#e7e7e7",
+			"titleBar.inactiveBackground": "#85583499",
+			"titleBar.inactiveForeground": "#e7e7e799"
+		},
+		"peacock.remoteColor": "#855834"
 	}
 }
