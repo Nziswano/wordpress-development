@@ -51,7 +51,6 @@
 
 * See `.gitpod.yml` file for list of vscode extensions.
 
-
 ## Gitpod Configuration
 * Added custom `.gitpod.yml` file
 * Added `gitpod.Dockerfile` file in `.gitpod` folder
