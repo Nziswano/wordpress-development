@@ -30,13 +30,13 @@ ports:
     onOpen: ignore
 vscode:
   extensions:
-    - AmazonWebServices.aws-toolkit-vscode
     - bmewburn.vscode-intelephense-client
     - claudiosanches.woocommerce
     - closemarketing.wp-development-toolbox
     - DEVSENSE.composer-php-vscode
     - DEVSENSE.phptools-vscode
     - DEVSENSE.profiler-php-vscode
+    - getpsalm.psalm-vscode-plugin
     - junstyle.php-cs-fixer
     - mtxr.sqltools
     - mtxr.sqltools-driver-mysql
