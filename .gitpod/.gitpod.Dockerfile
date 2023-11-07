@@ -32,7 +32,7 @@ RUN wget -O phive.phar "https://phar.io/releases/phive.phar" \
 	&& gpg --verify phive.phar.asc phive.phar \
 	&& rm phive.phar.asc \
 	&& chmod +x phive.phar \
-	&& sudo mv phive.phar /usr/local/bin/phive
+	&& sudo mv phive.phar /usr/local/bin/phive && phive version
 
 # Setup ZSH
 ENV SHELL=/usr/bin/zsh
