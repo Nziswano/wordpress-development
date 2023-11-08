@@ -40,6 +40,7 @@ vscode:
     - junstyle.php-cs-fixer
     - mtxr.sqltools
     - mtxr.sqltools-driver-mysql
+    - redhat.vscode-xml
     - xdebug.php-debug
 additionalRepositories:
   - url: https://github.com/johanmartindev/docfox-hubspot-plugin.git
