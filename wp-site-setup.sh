@@ -2,8 +2,8 @@
 set -Eeuo pipefail
 cp example.env .env
 set -a; source .env; set +a
-composer update
 composer install
+# is wordpress installed?
 
 wp db reset --yes
 
