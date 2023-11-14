@@ -42,6 +42,8 @@ vscode:
     - mtxr.sqltools-driver-mysql
     - redhat.vscode-xml
     - xdebug.php-debug
+    - esbenp.prettier-vscode
+    - rangav.vscode-thunder-client
 additionalRepositories:
   - url: https://github.com/johanmartindev/docfox-hubspot-plugin.git
     checkoutLocation: docfox-plugin
