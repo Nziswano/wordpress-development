@@ -7,10 +7,8 @@
 1. Run `./wp-site-setup.sh`
 1. Start server `wp server --port=8000 --debug --color --host=127.0.0.1'`
 1. Access site at `http://localhost:8000`
-1. Username and password in `./wp-site-setup.sh` script.
-1. Run the server: `wp server --port=8000 --debug --color --host=127.0.0.1`
-1. Connect to the site in your browser `http://localhost:8000`
 1. Admin site: `http://localhost:8000/wp-admin`
+1. Username and password in `./wp-site-setup.sh` script.
 
 ## Troubleshooting
 ### Database connectivity

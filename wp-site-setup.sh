@@ -10,7 +10,6 @@ wp db reset --yes
 wp core install --url=${DOMAIN_CURRENT_SITE} --title="${SITE_TITLE}" --admin_user=admin --admin_password=randomtest --admin_email=info@johanmartin.dev --debug
 
 wp plugin install --activate https://github.com/10up/wpcli-vulnerability-scanner/archive/stable.zip
-wp plugin activate docfox-plugin
 wp core update-db
 
 # Setup plugin
