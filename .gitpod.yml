@@ -47,6 +47,6 @@ vscode:
     - esbenp.prettier-vscode
     - rangav.vscode-thunder-client
 additionalRepositories:
-  - url: https://github.com/johanmartindev/docfox-hubspot-plugin.git
+  - url: https://github.com/Nziswano/docfox-hubspot-plugin.git
     checkoutLocation: docfox-plugin
 mainConfiguration: https://github.com/johanmartindev/wordpress-development.git
