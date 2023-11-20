@@ -9,6 +9,7 @@
 1. Access site at `http://localhost:8000`
 1. Admin site: `http://localhost:8000/wp-admin`
 1. Username and password in `./wp-site-setup.sh` script.
+1. Ngrok: `ngrok http 8000 --domain 4a984f6260ae-15250822959371901535.ngrok-free.app`
 
 ## Troubleshooting
 ### Database connectivity
