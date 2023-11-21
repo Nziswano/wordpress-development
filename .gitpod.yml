@@ -7,10 +7,10 @@ tasks:
   - name: Setup environment
     init: |
       docker-compose -f .gitpod/docker-compose.yml pull
-      ngrok config add-authtoken ${NGROK_AUTH_TOKEN}
   - name: Start environment
     command: |
       docker-compose -f .gitpod/docker-compose.yml up -d
+      ngrok config add-authtoken ${NGROK_AUTH_TOKEN}
       exec zsh
       bash -lic 'true'
 
