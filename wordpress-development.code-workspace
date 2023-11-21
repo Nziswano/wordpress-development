@@ -21,6 +21,19 @@
 				"name": "wordpressdb",
 				"database": "wordpress",
 				"username": "wordpress"
+			},
+			{
+				"mysqlOptions": {
+					"authProtocol": "default",
+					"enableSsl": "Disabled"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3306,
+				"driver": "MariaDB",
+				"name": "test_db",
+				"database": "wordpress_develop_tests",
+				"username": "wordpress"
 			}
 		],
 		"workbench.colorCustomizations": {
