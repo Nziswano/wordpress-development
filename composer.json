@@ -35,7 +35,8 @@
   "require": {
     "vlucas/phpdotenv": "*",
     "johnpbloch/wordpress-core": ">=6.0",
-		"johnpbloch/wordpress-core-installer": "^2.0"
+		"johnpbloch/wordpress-core-installer": "^2.0",
+    "wpackagist-plugin/fluent-smtp": "^2.2"
   },
   "require-dev": {
     "consolidation/robo": "^4.0",
