@@ -36,7 +36,8 @@
     "vlucas/phpdotenv": "*",
     "johnpbloch/wordpress-core": ">=6.0",
 		"johnpbloch/wordpress-core-installer": "^2.0",
-    "wpackagist-plugin/fluent-smtp": "^2.2"
+    "wpackagist-plugin/fluent-smtp": "^2.2",
+    "wpackagist-plugin/wp-mail-smtp": "^3.8"
   },
   "require-dev": {
     "captainhook/captainhook": "^5.18",
