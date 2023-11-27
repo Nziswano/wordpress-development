@@ -13,6 +13,7 @@ tasks:
       ngrok config add-authtoken ${NGROK_AUTH_TOKEN}
       exec zsh
       bash -lic 'true'
+      composer install
 
 gitConfig:
   safe.directory: "/workspace/wordpress-development"

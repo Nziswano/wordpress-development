@@ -39,6 +39,7 @@
     "wpackagist-plugin/fluent-smtp": "^2.2"
   },
   "require-dev": {
+    "captainhook/captainhook": "^5.18",
     "consolidation/robo": "^4.0",
     "friendsofphp/php-cs-fixer": "@stable",
     "phpcompatibility/phpcompatibility-wp": "@stable",

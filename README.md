@@ -28,6 +28,7 @@
 * https://psalm.dev/docs/running_psalm/installation/
 * https://github.com/rectorphp/rector
 * https://robo.li/
+* https://github.com/captainhookphp/captainhook
 
 * See `.gitpod.yml` file for list of vscode extensions.
 
