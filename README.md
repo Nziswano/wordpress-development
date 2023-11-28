@@ -4,7 +4,7 @@
 ### Gitpod,io
 1. Click on `Gitpod` open button
 1. Start server `wp server --port=8000 --debug --color --host=127.0.0.1`
-1. Ngrok: `ngrok start --domain ${NGROK_DOMAIN} --authtoken ${NGROK_AUTH_TOKEN} --config ngrok.yml --all `
+1. Ngrok: `ngrok http 8000 --domain ${NGROK_DOMAIN} --authtoken ${NGROK_AUTH_TOKEN} --config ngrok.yml`
 #### Access Site
 1. Access site at `http://localhost:8000`
 1. Admin site: `http://localhost:8000/wp-admin`
