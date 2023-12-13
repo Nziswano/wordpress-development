@@ -11,8 +11,6 @@ else
 	wp db reset --yes
 	wp core install --url=${DOMAIN_CURRENT_SITE} --title="${SITE_TITLE}" --admin_user=admin --admin_password=randomtest --admin_email=info@johanmartin.dev --debug
 	wp core update-db
-	# Setup plugin
-	ln -s /workspace/docfox-plugin /workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
 fi
 # start server
 wp server --port=8000 --debug --color --host=127.0.0.1
