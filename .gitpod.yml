@@ -22,10 +22,6 @@ ports:
     description: Port 8000 for WordPress
     port: 8000
     onOpen: ignore
-  - name: Adminer
-    description: Port 8080 for the adminer
-    port: 8080
-    onOpen: ignore
   - name: MySQL
     description: Port 8080 for the adminer
     port: 3306
