@@ -35,8 +35,7 @@
   "require": {
     "vlucas/phpdotenv": "*",
     "johnpbloch/wordpress-core": ">=6.0",
-		"johnpbloch/wordpress-core-installer": "^2.0",
-    "wpackagist-plugin/elementor": "^3.18"
+		"johnpbloch/wordpress-core-installer": "^2.0"
   },
   "require-dev": {
     "captainhook/captainhook": "^5.18",
