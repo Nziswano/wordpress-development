@@ -47,5 +47,5 @@ vscode:
     - xdebug.php-debug
 additionalRepositories:
   - url: https://github.com/Nziswano/docfox-hubspot-plugin.git
-    checkoutLocation: docfox-plugin
+    checkoutLocation: docfox-contact-user
 mainConfiguration: https://github.com/johanmartindev/wordpress-development.git
