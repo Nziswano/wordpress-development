@@ -16,9 +16,9 @@ else
 # Setup plugin
 PLUGIN_DIR=/workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
 PLUGIN_FILE=/workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user/contact-user-plugin.php
-if [ ! -f "$PLUGIN_FILE" ]; then
-ln -s /workspace/docfox-contact-user /workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
+	if [ ! -e "$PLUGIN_FILE" ]; then
+		ln -s /workspace/docfox-contact-user /workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
+	fi
 fi
-
 # start server
 wp server --port=8000 --debug --color --host=127.0.0.1
