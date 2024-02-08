@@ -13,12 +13,14 @@ else
 	wp db reset --yes
 	wp core install --url=${DOMAIN_CURRENT_SITE} --title="${SITE_TITLE}" --admin_user=admin --admin_password=randomtest --admin_email=info@johanmartin.dev --debug
 	wp core update-db
+
+fi
 # Setup plugin
 PLUGIN_DIR=/workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
 PLUGIN_FILE=/workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user/contact-user-plugin.php
-	if [ ! -e "$PLUGIN_FILE" ]; then
-		ln -s /workspace/docfox-contact-user /workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
-	fi
+
+if [ ! -e "$PLUGIN_FILE" ]; then
+	ln -s /workspace/docfox-contact-user /workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
 fi
 # start server
 wp server --port=8000 --debug --color --host=127.0.0.1
