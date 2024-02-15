@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae6c951f98368ee13237e4c3f1e03cd7",
+    "content-hash": "94c540225f01aba5ea3ca9e81df1b687",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -6856,6 +6856,24 @@
                 }
             ],
             "time": "2023-09-14T07:06:09+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/armember-membership",
+            "version": "4.0.26",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/armember-membership/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/armember-membership.zip?timestamp=1707983264"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/armember-membership/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",

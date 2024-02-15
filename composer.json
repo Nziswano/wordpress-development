@@ -38,6 +38,7 @@
 		"johnpbloch/wordpress-core-installer": "^2.0"
   },
   "require-dev": {
+    "wpackagist-plugin/armember-membership":">=4",
     "captainhook/captainhook": "^5.18",
     "consolidation/robo": "^4.0",
     "friendsofphp/php-cs-fixer": "@stable",
