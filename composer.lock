@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94c540225f01aba5ea3ca9e81df1b687",
+    "content-hash": "ae6c951f98368ee13237e4c3f1e03cd7",
     "packages": [
         {
             "name": "graham-campbell/result-type",
@@ -6625,16 +6625,16 @@
         },
         {
             "name": "vimeo/psalm",
-            "version": "5.22.0",
+            "version": "5.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimeo/psalm.git",
-                "reference": "fe2c67ec89f358940f90db05efd2d663388b45a6"
+                "reference": "e9dad66e11274315dac27e08349c628c7d6a1a43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/psalm/zipball/fe2c67ec89f358940f90db05efd2d663388b45a6",
-                "reference": "fe2c67ec89f358940f90db05efd2d663388b45a6",
+                "url": "https://api.github.com/repos/vimeo/psalm/zipball/e9dad66e11274315dac27e08349c628c7d6a1a43",
+                "reference": "e9dad66e11274315dac27e08349c628c7d6a1a43",
                 "shasum": ""
             },
             "require": {
@@ -6731,7 +6731,7 @@
                 "issues": "https://github.com/vimeo/psalm/issues",
                 "source": "https://github.com/vimeo/psalm"
             },
-            "time": "2024-02-13T14:22:51+00:00"
+            "time": "2024-02-15T22:52:31+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -6856,24 +6856,6 @@
                 }
             ],
             "time": "2023-09-14T07:06:09+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/armember-membership",
-            "version": "4.0.26",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/armember-membership/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/armember-membership.zip?timestamp=1707983264"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/armember-membership/"
         },
         {
             "name": "wpackagist-plugin/wp-mail-smtp",
