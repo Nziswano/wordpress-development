@@ -19,8 +19,8 @@
  */
 // use Dotenv\Dotenv;
 
-if ( file_exists(  __DIR__ . '/vendor/autoload.php' ) ) {
-	require_once __DIR__ . '/vendor/autoload.php';
+if (file_exists(__DIR__ . '/vendor/autoload.php')) {
+    require_once __DIR__ . '/vendor/autoload.php';
 }
 
 // define( 'VULN_API_PROVIDER', 'wordfence' );
@@ -53,15 +53,15 @@ define('DB_CHARSET', getenv('WORDPRESS_DB_CHARSET'));
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         getenv('AUTH_KEY'));
-define('SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY'));
-define('LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY'));
-define('NONCE_KEY',        getenv('NONCE_KEY'));
-define('AUTH_SALT',        getenv('AUTH_SALT'));
+define('AUTH_KEY', getenv('AUTH_KEY'));
+define('SECURE_AUTH_KEY', getenv('SECURE_AUTH_KEY'));
+define('LOGGED_IN_KEY', getenv('LOGGED_IN_KEY'));
+define('NONCE_KEY', getenv('NONCE_KEY'));
+define('AUTH_SALT', getenv('AUTH_SALT'));
 define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
-define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
-define('NONCE_SALT',       getenv('NONCE_SALT'));
-define('MY_KEY',      	   getenv('MY_KEY'));
+define('LOGGED_IN_SALT', getenv('LOGGED_IN_SALT'));
+define('NONCE_SALT', getenv('NONCE_SALT'));
+define('MY_KEY', getenv('MY_KEY'));
 
 /**#@-*/
 /**
@@ -85,7 +85,7 @@ $table_prefix  = 'wp_';
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 ini_set('display_errors', getenv('WP_DEBUG_CONFIG_DISPLAY_ERRORS'));
-ini_set('error_reporting', E_ALL );
+ini_set('error_reporting', E_ALL);
 define('WP_DEBUG', getenv('WP_DEBUG_CONFIG'));
 define('WP_DEBUG_DISPLAY', getenv('WP_DEBUG_CONFIG_DISPLAY'));
 define('WP_DEBUG_LOG', getenv('WP_DEBUG_CONFIG_LOG'));
@@ -97,8 +97,9 @@ define('SAVEQUERIES', getenv('WP_DEBUG_CONFIG_SAVEQUERIES'));
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
-if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
-	// define('CONCATENATE_SCRIPTS', false );
+if (!defined('ABSPATH')) {
+    define('ABSPATH', dirname(__FILE__) . '/');
+}
+define('CONCATENATE_SCRIPTS', false);
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
