@@ -36,8 +36,7 @@
     "vlucas/phpdotenv": "*",
     "johnpbloch/wordpress-core": ">=6.0",
 		"johnpbloch/wordpress-core-installer": "^2.0",
-    "wpackagist-plugin/armember-membership":">=4",
-    "wpackagist-plugin/wp-mail-smtp": "^3.8"
+    "wpackagist-plugin/armember-membership":">=4"
   },
   "require-dev": {
     "captainhook/captainhook": "^5.18",
