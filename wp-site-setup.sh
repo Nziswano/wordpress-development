@@ -15,12 +15,6 @@ else
 	wp core update-db
 
 fi
-# Setup plugin docfox-development
-PLUGIN_DIR=/workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
-PLUGIN_FILE=/workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user/contact-user-plugin.php
 
-if [ ! -e "$PLUGIN_FILE" ]; then
-	ln -s /workspace/docfox-contact-user /workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
-fi
 # start server
 wp server --port=8000 --debug --color --host=127.0.0.1
