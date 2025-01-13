@@ -15,7 +15,7 @@ else
 	wp core update-db
 
 fi
-# Setup plugin
+# Setup plugin docfox-development
 PLUGIN_DIR=/workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user
 PLUGIN_FILE=/workspace/wordpress-development/wordpress/wp-content/plugins/docfox-contact-user/contact-user-plugin.php
 
