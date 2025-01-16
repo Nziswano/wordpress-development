@@ -29,14 +29,18 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://wpackagist.org"
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
     }
   ],
   "require": {
     "vlucas/phpdotenv": "*",
     "johnpbloch/wordpress-core": ">=6",
     "johnpbloch/wordpress-core-installer": "^2.0",
-    "wpackagist-plugin/wp-openapi": ">=1"
+    "wpackagist-plugin/wp-openapi": "*"
   },
   "require-dev": {
     "captainhook/captainhook": "^5.18",

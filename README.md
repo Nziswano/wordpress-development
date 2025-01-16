@@ -1,5 +1,4 @@
 # Basic WordPress development setup.
-
 -   Contains the basics needed to setup a WordPress site using composer
 
 ## How To

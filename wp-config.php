@@ -91,6 +91,7 @@ define('WP_DEBUG_DISPLAY', getenv('WP_DEBUG_CONFIG_DISPLAY'));
 define('WP_DEBUG_LOG', getenv('WP_DEBUG_CONFIG_LOG'));
 define('SCRIPT_DEBUG', getenv('WP_DEBUG_CONFIG_SCRIPT'));
 define('SAVEQUERIES', getenv('WP_DEBUG_CONFIG_SAVEQUERIES'));
+define( 'WP_ENVIRONMENT_TYPE', 'local' );
 
 // $base = '/';
 
